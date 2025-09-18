@@ -1,34 +1,18 @@
-# Multi-Select Lookup Component ✅🔍  
+# Salesforce DX Project: Next Steps
 
-A Salesforce **Lightning Web Component (LWC)** that extends the functionality of a standard lookup to support **multiple record selection**. Selected records are displayed as **pills**, with built-in validation and dynamic search powered by Apex.  
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
----
+## How Do You Plan to Deploy Your Changes?
 
-## 🚀 Features  
+Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-- 🔄 **Dynamic Lookup Search**  
-  - Uses `@wire` with Apex for real-time record search.  
+## Configure Your Salesforce DX Project
 
-- 🏷️ **Multi-Select Support**  
-  - Displays selected records as **pills** using `lightning-pill-container`.  
-  - Supports **remove pill** action for deselection.  
+The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-- 🚫 **Duplicate Validation**  
-  - Prevents duplicate records with **ShowToastEvent** error messages.  
+## Read All About It
 
-- ⚡ **Reactive Array Updates**  
-  - Managed selected records array using `splice()` with reactive state handling.  
-
-- 🛠️ **Lightning App Builder Support**  
-  - Configurable via `@api` properties defined in the `meta.xml` file.  
-
----
-
-## 🛠️ Tech Stack  
-
-- **Apex** (dynamic search queries)  
-- **Lightning Web Components (LWC)**  
-- **ShowToastEvent for validation feedback**  
-- **SLDS (Salesforce Lightning Design System)**  
-
----
+- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
+- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
